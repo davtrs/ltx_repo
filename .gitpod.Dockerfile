@@ -1,4 +1,4 @@
-FROM ubuntu:20.10
+FROM gitpod/workspace-full
 
 # Install LaTeX
 RUN sudo apt-get -q update && \
